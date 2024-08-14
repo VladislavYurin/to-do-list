@@ -1,0 +1,94 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Купить молоко",
+      "description": "Необходимо купить молоко для завтрака.",
+      "completed": false,
+      "dueDate": "2024-09-10T12:00:00Z",
+      "priority": "low",
+      "createdAt": "2024-08-08T15:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Завершить проект по React",
+      "description": "Доработать функционал регистрации и авторизации.",
+      "completed": false,
+      "dueDate": "2024-09-15T18:00:00Z",
+      "priority": "high",
+      "createdAt": "2024-08-01T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Прочитать книгу",
+      "description": "Прочитать \"1984\" Джорджа Оруэлла до конца недели.",
+      "completed": true,
+      "dueDate": "2024-09-07T23:59:59Z",
+      "priority": "medium",
+      "createdAt": "2024-08-05T20:45:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Записаться на курс по JavaScript",
+      "description": "Найти и записаться на курс по JavaScript для улучшения навыков программирования.",
+      "completed": false,
+      "dueDate": "2024-09-20T12:00:00Z",
+      "priority": "medium",
+      "createdAt": "2024-08-06T11:15:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Очистить дом",
+      "description": "Общая уборка, включая пыление и мойку полов.",
+      "completed": false,
+      "dueDate": "2024-09-12T14:00:00Z",
+      "priority": "low",
+      "createdAt": "2024-08-09T16:20:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Подготовить отчет",
+      "description": "Завершить и отправить квартальный отчет о продажах.",
+      "completed": false,
+      "dueDate": "2024-09-17T16:00:00Z",
+      "priority": "high",
+      "createdAt": "2024-08-02T10:30:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Позвонить маме",
+      "description": "Не забудьте позвонить маме на ее день рождения.",
+      "completed": false,
+      "dueDate": "2024-09-22T19:00:00Z",
+      "priority": "medium",
+      "createdAt": "2024-08-03T13:45:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Записаться на прием к зубному врачу",
+      "description": "Сделать запись на плановый осмотр у зубного врача.",
+      "completed": false,
+      "dueDate": "2024-09-25T10:00:00Z",
+      "priority": "low",
+      "createdAt": "2024-08-04T08:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Сделать резервную копию компьютера",
+      "description": "Выполнить еженедельную резервное копирование важных файлов.",
+      "completed": false,
+      "dueDate": "2024-09-28T21:00:00Z",
+      "priority": "medium",
+      "createdAt": "2024-08-07T18:30:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Планировать отпуск",
+      "description": "Исследовать направления и планировать отпуск на следующий год.",
+      "completed": false,
+      "dueDate": "2024-10-01T12:00:00Z",
+      "priority": "high",
+      "createdAt": "2024-08-10T09:00:00Z"
+    }
+  ]
+}

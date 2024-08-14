@@ -1,0 +1,40 @@
+.todosContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10% 10% 10%;
+}
+
+@media (max-width: 768px) {
+    .todosContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .todosContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+.mainPageContainer {
+    z-index: 1;
+}
+
+.utilsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: var(--main-color)
+}
+
+.filterButtons {
+    display: flex;
+    gap: 10px;
+}

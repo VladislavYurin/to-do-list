@@ -1,0 +1,41 @@
+.toDoCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Распределяет пространство между элементами */
+    background-color: var(--modal-bg-color);
+    color: var(--label-color);
+    font-size: var(--label-font-size);
+    margin-bottom: var(--label-margin-bottom);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toDoCardContainer h3 {
+    margin-top: 0;
+}
+
+.toDoButtonContainer {
+    display: flex;
+    justify-content: center;
+    /* Располагает кнопки по центру */
+    width: 100%;
+    /* Занимает всю ширину родительского элемента */
+    margin-top: auto;
+    /* Прижимает к низу */
+}
+
+.mainButton[disabled] {
+    background-color: #ccc;
+    /* Серый цвет фона для отображения неактивности */
+    cursor: not-allowed;
+    /* Изменение курсора на "не указывать", чтобы показать, что кнопка неактивна */
+    opacity: 0.6;
+    /* Немного прозрачность для визуального отображения состояния disabled */
+}
+
+.toDoCardContainer p {
+    margin-bottom: var(--label-margin-bottom);
+    /* Добавляем небольшой отступ снизу для улучшения читаемости */
+}

@@ -1,0 +1,8 @@
+.alertPopup {
+    background-color: var(--modal-bg-color);
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
