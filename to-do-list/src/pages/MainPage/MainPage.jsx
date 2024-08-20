@@ -1,5 +1,5 @@
 import { useState, useContext, useEffect } from "react";
-import { Context } from "../../App";
+import { Context } from "../../Context";
 import CreateToDoModal from "../../components/CreateToDoModal/CreateToDoModal";
 import ToDoCard from "../../components/ToDoCard/ToDoCard";
 import "./MainPage.css";
@@ -76,7 +76,12 @@ const MainPage = () => {
                 })}
             </div>
 
-            {isCreateTodoPopupOpen && <CreateToDoModal setIsCreateTodoPopupOpen={setIsCreateTodoPopupOpen} />}
+            {isCreateTodoPopupOpen && (
+                <>
+                    <div className="modal-background"></div>
+                    <CreateToDoModal setIsCreateTodoPopupOpen={setIsCreateTodoPopupOpen} />
+                </>
+            )}
         </div>
     )
 };

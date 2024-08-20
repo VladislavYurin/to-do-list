@@ -1,6 +1,6 @@
 import "./AuthModal.css";
 import { useState, useContext } from "react";
-import { Context } from "../../App";
+import { Context } from "../../Context";
 import AlertPopup from "../AlertPopup/AlertPopup";
 import useCloseOnOutsideClick from "../../hooks/useCloseModalOnOutsideClick";
 import Local from "../../utils/Local";

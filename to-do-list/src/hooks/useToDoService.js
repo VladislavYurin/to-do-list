@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Context } from "../App";
+import { Context } from "../Context";
 
 /**
  * Кастомный хук для работы с задачами (to-do items).
